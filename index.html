@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="multo-logo.png" type="image/x-icon">
+    <title>Multo By: Cup of Joe</title>
+</head>
+<body>
+    
+    <!-- Background container with GIF -->
+    <div class="background-container">
+        <!-- Replace the src with your sunset or tree GIF URL -->
+        <img class="background-gif" src="anime.jpg">
+    </div>
+    
+    <!-- Overlay to improve contrast -->
+    <!-- <div class="overlay"></div> -->
+    
+    <div class="wrapper">
+        <div class="title pixel-text">Multo</div>
+        <div class="title pixel-text">By: Cup of Joe</div>
+        <div id="lyrics" class="pixel-text"></div>
+        <audio id="audioPlayer" src="music/multo_updated.mp4" preload="auto"></audio>
+
+        <div class="button-container">
+            <button  id="startBtn">Play</button>
+            <button  id="stopBtn" disabled>Stop</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
